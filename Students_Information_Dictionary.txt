@@ -1,0 +1,41 @@
+struct student --> This function create a data structure called by "Student" that stores the name, id and grade of the student.
+
+struct list2 --> This function create a data structure list that has a pointer to previous and next element of the list, the information is a pointer to the struct student.
+
+List2* lst2_create(void) -- > This function create a list. Return a pointer to the list.
+
+int lst2_empty(List2*l) --> This function returns a integer if the list is empty or no. Receive as parameter  a pointer to the begin of list.
+
+List2* lst2_insert_end(List2*l, char*name, char*id, float grade) --> This function recieve as parameter the name, id and grade of the student and insert the student information in the end of the list. Receive as parameter the pointer to the begin of list, the name, id and grade. 
+
+List2* lst2_insert_beg(List2*l, char*name, char*id, float grade) -- > This function recieve as parameter the name, id and grade of the student and insert the student information in the begin of the list. Receive as parameter the pointer to the begin of list, the name, id and grade. 
+
+void lst2_print(List2* l) --> This function print the name, id and grade of each element in the list. Recieve as parameter the pointer to the list.
+
+List2* lst2_search(List2*l, char*id) --> This function search a student by your id. Receive as parameter a pointer to the begin of list and the id for search.
+
+List2* lst2_take_beg(List2*l, Student*a) --> This function remove the first element of the list and save the information. Recieve as parameter the pointer to the begin of list and a pointer to a struct student to save the information.
+
+List2* lst2_take_end(List2*l, Student* a) -- > This function remove the last element of the list and save the information. Recieve as parameter the pointer to the begin of list and a pointer to a struct student to save the information.
+
+void ls2_release(List2*l) --> This function release the list. Receive as parameter the pointer to the begin of the list.
+
+float Avg(List2*l) --> This function calculates the average of the students grade. Receive as parameter the pointer to the list and return a float.
+
+float max(List2*l) --> This function returns the maximum of the students grade. Receive as parameter the pointer to the list.
+
+float min(List2*l) --> This function returns the minimum of the students grade. Receive as parameter the pointer to the begin of list.
+
+
+List2* lst2_take_id(List2*l,char*id, Student* a) --> This function remove the element of the list by the id and save the information. Recieve as parameter the pointer to the begin of list and a pointer to a struct student to save the information.
+
+int quantity(List2*l) --> This function count and return the quantity of elements in the list. Receive as parameter the pointer to the begin of list.
+
+
+
+List2* lst2_take_id(List2*l,char*id, Student* a) --> This function remove the element of the list by the id and save the information. Receive as parameter the pointer to the begin
+
+
+
+
+ 
